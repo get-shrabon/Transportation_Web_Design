@@ -219,3 +219,42 @@ nav{
    font-style: italic;
 }
 /* Hero Section Style End */
+
+/* Service Section Style Here */
+.service{
+    margin-top: 30px;
+}
+.service-subtitle{
+    color: var(--secundary-color);
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+} 
+.service-title{
+    color: var(--primary-heading);
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: poppins;
+    line-height: 20px;
+}
+.card-img-body{
+    position: relative;
+}
+.card-icon{
+    position: absolute;
+   bottom: 5px;
+    left: 10px;
+}
+.card-icon-title{
+    color: #FFF;
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.card-icon img{
+    width: 50px;
+}
+
+/* Service Section Style End */
