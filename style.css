@@ -30,7 +30,7 @@ body{
 .top-nav{
     width: 100%;
     padding: 10px 0px;
-    position: fixed;
+    position: absolute;
     border-bottom: 1px solid #1f56c493;
     z-index: 2;
 }
@@ -111,6 +111,33 @@ nav{
 .active{
     color: var(--secundary-color) !important;
 }
+.sticky {
+    position: fixed;
+    top: 0 !important;
+    width: 100%;
+    margin-top: 0px !important;
+    transition: .4s !important;
+    background-color:black;
+  }
+  .navbar-toggler {
+    padding: 5px !important;
+    text-align: center;
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: var(--bs-navbar-color);
+    background-color: transparent;
+    border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
+}
+  @media screen and (max-width:576px) {
+    .navbar-brand img{
+        width: 80px !important;
+    }
+    nav{
+        margin-top: 0px !important;
+    }
+  }
 /* Main Nav End */
 
 /* Header Style End */
@@ -217,6 +244,20 @@ nav{
 .hero-btn .or{
     color: var(--background-color);
    font-style: italic;
+}
+@media screen and (max-width:576px) {
+    .slide-1,.slide-2,.slide-3{
+        height: 70vh !important;
+    }
+}
+@media screen and (min-width:577px) and (max-width:992px) {
+    .navbar-brand img{
+        width: 120px;
+    }
+    .navbar-nav{
+        align-items: center !important;
+        margin-bottom: 0 !important;
+    }
 }
 /* Hero Section Style End */
 
