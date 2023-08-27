@@ -520,3 +520,69 @@ nav {
   }
 }
 /* Go Beyond Section Style End  */
+
+/* Team Section Style Here */
+.team {
+  padding: 50px 0px;
+}
+.team h2 {
+  font-family: poppins;
+}
+.team-subtitle {
+  color: var(--secundary-color);
+  letter-spacing: 1px;
+}
+.team-member {
+  width: 100%;
+  z-index: 1;
+  position: relative;
+  border-bottom: 5px solid var(--secundary-color);
+  padding-bottom: 20px;
+}
+.team-member img {
+  width: 100%;
+  position: relative;
+  display: block;
+}
+.team-contact-icon {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  position: absolute;
+  top: 35px;
+  left: -20px;
+  opacity: 0;
+  z-index: 10;
+  transition: 0.4s all;
+}
+.team-member:hover .team-contact-icon {
+  left: 15px;
+  opacity: 1;
+}
+.team-contact-icon a {
+  text-decoration: none;
+  width: 30px;
+  height: 30px;
+  background-color: var(--secundary-color);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+.team-contact-icon a:hover {
+  background-color: var(--primary-color);
+}
+.team-member-detail{
+    margin-top: 30px;
+    text-align: center;
+}
+.team-member-detail h5{
+     font-weight: bold;
+     text-transform: uppercase;
+     font-family: poppins;
+}
+.team-member-detail p{
+     font-size: 14px;
+}
+/* Team Section Style End */
