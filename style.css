@@ -345,3 +345,36 @@ nav{
     background-color: var(--background-color) !important;
 }
 /* Service Section Style End */
+
+ /* Experience Section Style Here */
+ .experience{
+    background-color: white;
+    padding: 50px 0px;
+ }
+ .experience h2{
+    font-family: poppins;
+    color: var(--primary-heading);
+ }
+ .experience p{
+    font-family: open sans;
+ }
+ .role{
+    margin-top: 30px;
+ }
+ .role p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+ .role i{
+    color: var(--secundary-color);
+ }
+ .package{
+    width: 100%;
+    height: fit-content;
+    margin-top: 30px;
+    padding: 10px 10px;
+    border-right: 5px solid var(--secundary-color);
+    box-shadow: 0 0 11px 0 rgba(6, 22, 58, .14);
+ }
+ /* Experience Section Style End */
