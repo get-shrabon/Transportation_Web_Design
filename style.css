@@ -639,9 +639,36 @@ nav {
 .service-numbers{
     width: 100%;
     overflow-x: hidden;
-    padding: 50px 0px;
+   padding-top: 150px;
+   padding-bottom: 50px;
+    margin-top: -200px;
     background-color: var(--primary-color);
     color: white;
-    margin-top: -200px;
+}
+.service-number-item{
+    margin-top: 60px;
+    text-align: center;
+}
+.counter{
+    font-size: 35px;
+    font-weight: bold;
+}
+@media screen and (max-width:576px) {
+    .service-numbers{
+        margin-top: -0px;
+        padding: 40px !important;
+    }
+    .ws-info-right-layer{
+        height: auto;
+        padding: 40px 0px !important;
+        margin-left: -0px;
+    }
+}
+@media screen and (min-width:577px) and (max-width:992px) {
+    .ws-info-right-layer{
+        height: auto;
+        padding: 40px 0px !important;
+        margin-left: -0px;
+    }
 }
 /* Service Numbers Section Style End */

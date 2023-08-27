@@ -386,7 +386,32 @@
 
         <!-- Service Numbers Section Here -->
         <div class="service-numbers">
-
+            <div class="row">
+                <div class="col-lg-3 col-sm-12 col-md-6">
+                    <div class="service-number-item">
+                        <div class="counter" akhi="1480">0</div>
+                        <p>Countries Covered</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-12 col-md-6">
+                    <div class="service-number-item">
+                        <div class="counter" akhi="5432">0</div>
+                        <p>Packages Received</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-12 col-md-6">
+                    <div class="service-number-item">
+                        <div class="counter" akhi="1200">0</div>
+                        <p>Happy Customers</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-12 col-md-6">
+                    <div class="service-number-item">
+                        <div class="counter" akhi="6780">0</div>
+                        <p>National Offices</p>
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- Service Numbers Section End -->
 
@@ -437,6 +462,31 @@
             }
         }
     </script>
+
+    <!-- Counter -->
+    <script>
+        const counters = document.querySelectorAll('.counter');
+        const speed = 600;
+
+        counters.forEach(counter => {
+            const animate = () => {
+                const value = +counter.getAttribute('akhi');
+                const data = +counter.innerText;
+
+                const time = value / speed;
+                if (data < value) {
+                    counter.innerText = Math.ceil(data + time);
+                    setTimeout(animate, 1);
+                } else {
+                    counter.innerText = value;
+                }
+
+            }
+
+            animate();
+        });
+    </script>
+    <!-- Counter -->
 
 
 </body>
