@@ -593,6 +593,26 @@ nav {
 .team-member-detail p {
   font-size: 14px;
 }
+.show-more{
+    margin-top: 30px;
+}
+.show-more a{
+    text-decoration: none;
+    width: 150px;
+    margin: auto auto;
+    height: 50px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--secundary-color);
+    transition: .4s;
+    border: 1px solid var(--secundary-color);
+}
+.show-more a:hover{
+    background-color: var(--secundary-color);
+    color: white;
+}
 /* Team Section Style End */
 
 /*  Delivery Section Style here */
@@ -672,3 +692,42 @@ nav {
     }
 }
 /* Service Numbers Section Style End */
+
+/*  Customer Says Section Style Here */
+.customer{
+    padding: 50px 0px;
+}
+.say-title{
+    color: var(--secundary-color);
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: center;
+}
+.client-box{
+    padding: 20px 0px;
+    border: none;
+}
+.quote{
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 0 20px 0 rgb(188, 185, 185);
+    padding: 30px 10px;
+    margin-bottom: 10px;
+}
+.quote i{
+font-size: 60px;
+color: var(--primary-heading);
+}
+.quote p{
+    padding: 0px 10px;
+    font-size: 14px;
+}
+.client-detail{
+    text-align: center;
+}
+.client-detail img{
+    width: 100px;
+    height: 100px;
+    margin: 10px 0px;
+}
+/*  Customer Says Section Style End */
