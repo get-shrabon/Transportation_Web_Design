@@ -22,6 +22,14 @@ body {
   font-family: "Public Sans", sans-serif;
   background-color: var(--background-color);
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--primary-heading);
+}
 
 /* Header Style Here */
 
@@ -573,16 +581,67 @@ nav {
 .team-contact-icon a:hover {
   background-color: var(--primary-color);
 }
-.team-member-detail{
-    margin-top: 30px;
-    text-align: center;
+.team-member-detail {
+  margin-top: 30px;
+  text-align: center;
 }
-.team-member-detail h5{
-     font-weight: bold;
-     text-transform: uppercase;
-     font-family: poppins;
+.team-member-detail h5 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: poppins;
 }
-.team-member-detail p{
-     font-size: 14px;
+.team-member-detail p {
+  font-size: 14px;
 }
 /* Team Section Style End */
+
+/*  Delivery Section Style here */
+.delivery {
+  padding: 50px 0px;
+  overflow-x: hidden;
+}
+.ws-img-left-layer {
+  background-image: url("./images/delivery\ bg.jpg");
+  height: 550px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  box-shadow: 0 0 11px 0 rgba(6, 22, 58, 0.14);
+}
+.ws-info-right-layer {
+  height: 550px;
+  box-shadow: 0 0 11px 0 rgba(6, 22, 58, 0.14);
+  margin-top: 50px;
+  margin-left: -100px;
+  background-color: #fff;
+  position: relative;
+}
+.right-content {
+  padding-left: 60px;
+  padding-top: 60px;
+}
+.right-subtitle{
+    color: var(--secundary-color);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.delivery-guarantee img{
+    width: 50px;
+}
+.delivery-guarantee h5{
+    margin-top: 10px;
+    font-weight: bold;
+}
+/*  Delivery Section Style end */
+
+/* Service Numbers Section Style Here */
+.service-numbers{
+    width: 100%;
+    overflow-x: hidden;
+    padding: 50px 0px;
+    background-color: var(--primary-color);
+    color: white;
+    margin-top: -200px;
+}
+/* Service Numbers Section Style End */
