@@ -117,7 +117,7 @@ nav{
     width: 100%;
     margin-top: 0px !important;
     transition: .4s !important;
-    background-color:black;
+    background-color:var(--primary-heading);
   }
   .navbar-toggler {
     padding: 5px !important;
@@ -264,6 +264,8 @@ nav{
 /* Service Section Style Here */
 .service{
     margin-top: 30px;
+    background-color: var(--background-color);
+    padding-top: 30px;
 }
 .service-subtitle{
     color: var(--secundary-color);
@@ -282,6 +284,7 @@ nav{
 }
 .card-img-body{
     position: relative;
+    overflow: hidden;
 }
 .card-icon{
     position: absolute;
@@ -298,4 +301,47 @@ nav{
     width: 50px;
 }
 
+.card-img-top{
+   filter: contrast(150%);
+   transition: .4s all;
+}
+.card-img-body:hover .card-img-top{
+    scale: calc(1.2);
+}
+.read-more{
+    text-decoration: none;
+    font-size: 14px;
+    color: #020202;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: .3s;
+    margin-top: 10px;
+}
+.read-more:hover{
+    color: var(--secundary-color);
+}
+ .hs-bottom-line {
+    position: absolute;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 80px;
+    height: 5px;
+    background-color: var(--secundary-color);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -ms-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+.card:hover .hs-bottom-line{
+    width: 100%;
+}
+.card{
+    border: none !important;
+    padding-bottom: 40px !important;
+    background-color: var(--background-color) !important;
+}
 /* Service Section Style End */
