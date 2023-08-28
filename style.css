@@ -876,6 +876,96 @@ font-weight: 900;
 /* Blog Section Style End */
 
 
+/* Footer Style Here */
+footer{
+  padding: 50px 0px;
+  background-color: var(--primary-heading);
+  color: white;
+}
+footer a{
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  transition: .3s;
+}
+footer a:hover{
+  color: var(--secundary-color);
+}
+.footer-top-contact i{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--secundary-color);
+  color: white;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto auto;
+  margin-bottom: 10px;
+}
+.footer-top-contact a{
+  font-size: 18px;
+}
+.footer-top-contact p{
+  font-size: 18px;
+}
+.footer-top{
+  border-bottom: 1px solid #1d418a54;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+.footer-social-icon a{
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background-color: #1d428a;
+transition: .4s;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 18px;
+}
+.footer-social-icon a:hover{
+background-color: var(--secundary-color);
+color: white;
+}
+.about{
+  padding-left: 20px;
+}
+.about h5{
+  color: var(--secundary-color);
+}
+.about-items{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 30px;
+}
+.newsletter{
+}
+.newsletter h5{
+  color: var(--secundary-color);
+  margin-bottom: 30px;
+}
+.sign-btn{
+  background-color: var(--secundary-color);
+  color: white;
+  font-size: 14px;
+}
+.sign-btn:hover{
+  background-color: var(--secundary-color);
+}
+.footer-input:focus{
+  box-shadow: none;
+}
+.main-footer{
+  border-bottom: 1px solid #1d418a54;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+/* Footer Style End */
+
 
 
 
