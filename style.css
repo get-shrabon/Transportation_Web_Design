@@ -593,25 +593,25 @@ nav {
 .team-member-detail p {
   font-size: 14px;
 }
-.show-more{
-    margin-top: 30px;
+.show-more {
+  margin-top: 30px;
 }
-.show-more a{
-    text-decoration: none;
-    width: 150px;
-    margin: auto auto;
-    height: 50px;
-    font-size: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--secundary-color);
-    transition: .4s;
-    border: 1px solid var(--secundary-color);
+.show-more a {
+  text-decoration: none;
+  width: 150px;
+  margin: auto auto;
+  height: 50px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--secundary-color);
+  transition: 0.4s;
+  border: 1px solid var(--secundary-color);
 }
-.show-more a:hover{
-    background-color: var(--secundary-color);
-    color: white;
+.show-more a:hover {
+  background-color: var(--secundary-color);
+  color: white;
 }
 /* Team Section Style End */
 
@@ -631,9 +631,10 @@ nav {
 }
 .ws-info-right-layer {
   height: 550px;
-  
+
   margin-top: 50px;
-  margin-left: -100px;box-shadow: 0 0 11px 0 rgba(6, 22, 58, 0.14);
+  margin-left: -100px;
+  box-shadow: 0 0 11px 0 rgba(6, 22, 58, 0.14);
   background-color: #fff;
   position: relative;
 }
@@ -641,95 +642,95 @@ nav {
   padding-left: 60px;
   padding-top: 60px;
 }
-.right-subtitle{
-    color: var(--secundary-color);
-    letter-spacing: 1px;
-    text-transform: uppercase;
+.right-subtitle {
+  color: var(--secundary-color);
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
-.delivery-guarantee img{
-    width: 50px;
+.delivery-guarantee img {
+  width: 50px;
 }
-.delivery-guarantee h5{
-    margin-top: 10px;
-    font-weight: bold;
+.delivery-guarantee h5 {
+  margin-top: 10px;
+  font-weight: bold;
 }
 /*  Delivery Section Style end */
 
 /* Service Numbers Section Style Here */
-.service-numbers{
-    width: 100%;
-    overflow-x: hidden;
-   padding-top: 150px;
-   padding-bottom: 50px;
-    margin-top: -200px;
-    background-color: var(--primary-color);
-    color: white;
+.service-numbers {
+  width: 100%;
+  overflow-x: hidden;
+  padding-top: 150px;
+  padding-bottom: 50px;
+  margin-top: -200px;
+  background-color: var(--primary-color);
+  color: white;
 }
-.service-number-item{
-    margin-top: 60px;
-    text-align: center;
+.service-number-item {
+  margin-top: 60px;
+  text-align: center;
 }
-.counter{
-    font-size: 35px;
-    font-weight: bold;
+.counter {
+  font-size: 35px;
+  font-weight: bold;
 }
-@media screen and (max-width:576px) {
-    .service-numbers{
-        margin-top: -0px;
-        padding: 40px !important;
-    }
-    .ws-info-right-layer{
-        height: auto;
-        padding: 40px 0px !important;
-        margin-left: -0px;
-    }
+@media screen and (max-width: 576px) {
+  .service-numbers {
+    margin-top: -0px;
+    padding: 40px !important;
+  }
+  .ws-info-right-layer {
+    height: auto;
+    padding: 40px 0px !important;
+    margin-left: -0px;
+  }
 }
-@media screen and (min-width:577px) and (max-width:992px) {
-    .ws-info-right-layer{
-        height: auto;
-        padding: 40px 0px !important;
-        margin-left: -0px;
-    }
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .ws-info-right-layer {
+    height: auto;
+    padding: 40px 0px !important;
+    margin-left: -0px;
+  }
 }
 /* Service Numbers Section Style End */
 
 /*  Customer Says Section Style Here */
-.customer{
-    padding: 50px 0px;
+.customer {
+  padding: 50px 0px;
 }
-.say-title{
-    color: var(--secundary-color);
-    letter-spacing: 1px;
-    font-weight: bold;
-    text-align: center;
+.say-title {
+  color: var(--secundary-color);
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-align: center;
 }
-.client-box{
-    padding: 20px 0px;
-    border: none;
+.client-box {
+  padding: 20px 0px;
+  border: none;
 }
-.quote{
-    text-align: center;
-    background-color: white;
-    box-shadow: 0 0 11px 0 rgba(6, 22, 58, 0.14);
-    padding: 40px 20px;
-    margin-bottom: 15px;
-    position: relative;
+.quote {
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 0 11px 0 rgba(6, 22, 58, 0.14);
+  padding: 40px 20px;
+  margin-bottom: 15px;
+  position: relative;
 }
-.quote i{
-font-size: 50px;
-color: var(--primary-color);
+.quote i {
+  font-size: 50px;
+  color: var(--primary-color);
 }
-.quote p{
-    padding: 0px 10px;
-    font-size: 14px;
+.quote p {
+  padding: 0px 10px;
+  font-size: 14px;
 }
-.client-detail{
-    text-align: center;
+.client-detail {
+  text-align: center;
 }
-.client-detail img{
-    width: 100px;
-    height: 100px;
-    margin: 15px 0px;
+.client-detail img {
+  width: 100px;
+  height: 100px;
+  margin: 15px 0px;
 }
 .bottom-line {
   position: absolute;
@@ -740,12 +741,154 @@ color: var(--primary-color);
   background-color: var(--secundary-color);
   width: 50px;
   height: 5px;
-  transition: .4s;
+  transition: 0.4s;
 }
-.client-box:hover .bottom-line{
+.client-box:hover .bottom-line {
   width: 100%;
 }
-.client-box h6{
+.client-box h6 {
   font-weight: bold;
 }
 /*  Customer Says Section Style End */
+
+/* Blog Section Style Here */
+.blog {
+  padding: 50px 0px;
+}
+.blog-content {
+  overflow: hidden;
+  position: relative;
+}
+.blog-img{
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.blog-content img {
+  width: 100%;
+  transition: 0.5s;
+  position: relative;
+  z-index: 1;
+}
+.blog-content:hover img {
+  scale: calc(1.1);
+}
+.data-layer {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: var(--secundary-color);
+    text-align: center;
+    padding: 10px 20px;
+    z-index: 1;
+    height: 70px;
+    border-bottom: 3px solid var(--background-color);
+    border-left: 3px solid var(--background-color);
+}
+.blog-img-caption{
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 3;
+  padding: 10px 40px;
+  color: white;
+}
+.blog-btn{
+  text-decoration: none;
+  color: white;
+  width: 130px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: var(--secundary-color);
+  transition: .4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto auto;
+  font-size: 14px;
+  z-index: 10;
+}
+.blog-btn:hover{
+  background-color: var(--primary-color);
+}
+.blog-img::after{
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-image: linear-gradient(transparent, var(--primary-heading));
+  z-index: 2;
+opacity: .9;
+}
+.blog-item{
+  overflow: hidden;
+}
+.blog-img-two{
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.blog-img-two img{
+  width: 100%;
+  transition: .4s;
+  overflow: hidden;
+}
+.blog-img-two img:hover{
+  scale: calc(1.1);
+}
+.blog-pulish-date{
+  color: var(--secundary-color);
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-size: 14px;
+}
+.blog-item-title{
+  color: #09192a;
+  text-decoration: none;
+  transition: .3s;
+font-weight: 900;
+  font-size: 20px;
+
+}
+.blog-item-title:hover{
+  color: #1d428a;
+}
+.blog-item-btn{
+  text-decoration: none;
+  width: 140px;
+  height: 40px;
+  font-size: 14px;
+  color: var(--secundary-color);
+  border: 1px solid var(--secundary-color);
+  border-radius: 5px;
+  transition: .4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blog-item-btn:hover{
+  color: white;
+  background-color: var(--secundary-color);
+}
+/* Blog Section Style End */
+
+
+
+
+
+
+/* Multiple Responsive */
+@media screen and (max-width:576px) {
+  .row{
+    gap: 20px !important;
+  }
+}
+@media screen and (min-width:577px) and (max-width:992px) {
+  .row{
+    gap: 20px !important;
+  }
+}
+/* Multiple Responsive */
