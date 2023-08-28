@@ -631,9 +631,9 @@ nav {
 }
 .ws-info-right-layer {
   height: 550px;
-  box-shadow: 0 0 11px 0 rgba(6, 22, 58, 0.14);
+  
   margin-top: 50px;
-  margin-left: -100px;
+  margin-left: -100px;box-shadow: 0 0 11px 0 rgba(6, 22, 58, 0.14);
   background-color: #fff;
   position: relative;
 }
@@ -710,13 +710,14 @@ nav {
 .quote{
     text-align: center;
     background-color: white;
-    box-shadow: 0 0 20px 0 rgb(188, 185, 185);
-    padding: 30px 10px;
-    margin-bottom: 10px;
+    box-shadow: 0 0 11px 0 rgba(6, 22, 58, 0.14);
+    padding: 40px 20px;
+    margin-bottom: 15px;
+    position: relative;
 }
 .quote i{
-font-size: 60px;
-color: var(--primary-heading);
+font-size: 50px;
+color: var(--primary-color);
 }
 .quote p{
     padding: 0px 10px;
@@ -728,6 +729,23 @@ color: var(--primary-heading);
 .client-detail img{
     width: 100px;
     height: 100px;
-    margin: 10px 0px;
+    margin: 15px 0px;
+}
+.bottom-line {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  bottom: -5px;
+  background-color: var(--secundary-color);
+  width: 50px;
+  height: 5px;
+  transition: .4s;
+}
+.client-box:hover .bottom-line{
+  width: 100%;
+}
+.client-box h6{
+  font-weight: bold;
 }
 /*  Customer Says Section Style End */
